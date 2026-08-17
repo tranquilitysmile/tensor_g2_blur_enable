@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dev.codex.felixblur"
+    android:versionCode="8"
+    android:versionName="8.0">
+
+    <uses-sdk android:minSdkVersion="31" android:targetSdkVersion="36" />
+
+    <application
+        android:allowBackup="false"
+        android:hasCode="true"
+        android:label="Felix Blur Control"
+        android:theme="@android:style/Theme.Material.Settings">
+        <meta-data android:name="xposedmodule" android:value="true" />
+        <meta-data android:name="xposeddescription"
+            android:value="Enables framework, launcher, SystemUI, lockscreen and notification blur paths." />
+        <meta-data android:name="xposedminversion" android:value="93" />
+
+        <activity
+            android:name=".BlurSettingsActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name=".BlurSettingsProvider"
+            android:authorities="dev.codex.felixblur.settings"
+            android:exported="true" />
+    </application>
+</manifest>

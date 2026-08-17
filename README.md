@@ -18,7 +18,7 @@ lighter, glass-like appearance.
 > [!IMPORTANT]
 > Felix Blur Control is built for Google's Pixel SystemUI and Pixel Launcher.
 > It has been developed and tested on the first-generation Pixel Fold (`felix`,
-> Tensor G2) running Android 17 QPR2 Beta. Internal Google classes can change
+> Tensor G2) running Android 17 QPR2 Beta 2 (In Beta 3 Google add blur to locksreen, notifications NOT TESTED YET). Internal Google classes can change
 > between updates, so other builds and devices may require adaptation.
 
 ## Preview

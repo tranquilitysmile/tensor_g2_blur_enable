@@ -1,6 +1,6 @@
 <div align="center">
 
-# Felix Blur Control
+# Android 17 Tensor G2/Pixel Fold/Pixel 7/Pixel 7a enable frosted glass (Blur)
 
 **Bring back Android's hidden background blur and tune it to your taste.**
 

@@ -99,7 +99,7 @@ keeps an old value cached, restart Pixel Launcher/SystemUI or reboot the device.
 
 > [!NOTE]
 > The **Pixel Dock Glass** slider is an integration point for a compatible Pixel
-> Dock Glass module. It does not create the custom dock by itself.
+> Dock Glass module (https://github.com/tranquilitysmile/pixel_launcher_glass_dock). It does not create the custom dock by itself.
 
 ## Requirements
 
